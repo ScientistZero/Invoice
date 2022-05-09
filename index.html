@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Invoice</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="/css/site.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-1" style="border:1px solid #cecece;">
+        <div class="row">
+            <div class="col d-flex justify-content-end mt-4">
+                <button onclick="window.print()">Print This Page</button>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col p-5">
+                <img class="img-fluid" src="/img/IdeaFoundryLogo.png" title="Idea Foundry Logo" alt="Idea Foundry Logo">
+            </div>
+            <div class="col d-flex justify-content-end">
+                <h4>Client No:4908</h4>
+            </div>
+        </div>
+        <div class="row" style="border:1px solid #cecece;">
+            <div class="col p-3">
+                <strong>Date:</strong>05/17/2022
+            </div>
+            <div class="col d-flex justify-content-end p-3"><strong>Invoice No:</strong> 19005
+            </div>
+        </div>
+        <div class="row" style="border:1px solid #cecece;">
+            <div class="col mt-3">
+                <b>Invoice To:</b><br>Mark Davis<br>3333 Al Davis Way<br>Las Vegas NV 89118
+            </div>
+            <div class="col d-flex justify-content-end p-3">
+                <p><strong>Pay To:</strong><br>Idea Foundry Inc.<br>2705 N. Enterprise St<br>Kernersville, NC 27284
+                </p>
+            </div>
+        </div>
+        <div class="row table-responsive" style="border:1px solid #cecece;">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Service</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Rate</th>
+                        <th scope="col">QTY</th>
+                        <th scope="col">Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">Design</td>
+                        <td>Website Design</td>
+                        <td>$60.00</td>
+                        <td>10</td>
+                        <td>$600.00</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Development</td>
+                        <td>Website Development</td>
+                        <td>$150.00</td>
+                        <td>10</td>
+                        <td>$1500.00</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Deployment</td>
+                        <td>Deployment and Hosting</td>
+                        <td>$450.00</td>
+                        <td>1</td>
+                        <td>$450.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td scope="row" colspan="4">Sub Total:</td>
+                        <td>$2550.00</td>
+                    </tr>
+                    <tr>
+                        <td scope="row" colspan="4">Tax:</td>
+                        <td>$0.00</td>
+                    </tr>
+                    <tr>
+                        <td scope="row" colspan="4">Total:</td>
+                        <td>$2550.00</td>
+                    </tr>
+                </tfoot>
+
+            </table>
+            <div class="row">
+                <div class="col d-flex justify-content-start p-2 mb-3">
+                    <strong>NOTE:</strong>This is a computer generated reciept and does not require physical
+                    signiture.
+                </div>
+            </div>
+        </div>
+    </div> <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    </div>
+</body>
+
+</html>
